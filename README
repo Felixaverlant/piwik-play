@@ -1,0 +1,13 @@
+Example Piwik API in Play
+=================================
+
+## Desc
+POC that retreive data from Piwik API & display with d3.js the visits of the last 5 days. 
+
+## Conf
+- Add these environment variables in your application.conf
+api.baseUrl = "http://localhost:8888/Project_example/piwik/piwik/"
+api.token = "available-in-piwik-admin"
+api.idSite = available-in-piwik-admin
+
+- Replace value "label" in public/javascripts/main.js for filtering data.
